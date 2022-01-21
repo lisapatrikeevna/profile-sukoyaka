@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/profile-sukoyaka/static/css/main.5e9ee40b.css",
+    "main.js": "/profile-sukoyaka/static/js/main.1120d9ce.js",
+    "static/js/787.b5419886.chunk.js": "/profile-sukoyaka/static/js/787.b5419886.chunk.js",
+    "static/media/first.svg": "/profile-sukoyaka/static/media/first.5dcebbe3b36c9a875a40.svg",
+    "static/media/second.svg": "/profile-sukoyaka/static/media/second.7339e283aaee37ec36510afe9f19ea8c.svg",
+    "static/media/fifth.svg": "/profile-sukoyaka/static/media/fifth.1af45ed96cf4dc4a678d5bb003f0ea3b.svg",
+    "static/media/third_image.svg": "/profile-sukoyaka/static/media/third_image.681347ce4c8b1692a5b93393235fa1fc.svg",
+    "static/media/sixth.svg": "/profile-sukoyaka/static/media/sixth.570a061cd27d5d16c75b9f6706e9405e.svg",
+    "static/media/third.svg": "/profile-sukoyaka/static/media/third.2af7b98302e2085482e5.svg",
+    "static/media/registerBg.png": "/profile-sukoyaka/static/media/registerBg.113574439ee11b0c39ba.png",
+    "static/media/apple_button.svg": "/profile-sukoyaka/static/media/apple_button.6297881fc7ea3785e9cfd339940aaee1.svg",
+    "static/media/help1.svg": "/profile-sukoyaka/static/media/help1.82858347c436af80553ef84e8d2fa0d3.svg",
+    "static/media/google_play_button.svg": "/profile-sukoyaka/static/media/google_play_button.0293ff4668658ee2a2b7b0fb5ab1d6b3.svg",
+    "static/media/fourth.svg": "/profile-sukoyaka/static/media/fourth.945cb87081466b2c367babf8f489f581.svg",
+    "static/media/logo.svg": "/profile-sukoyaka/static/media/logo.fca7a24b82add6d287d00e8f08c2c9d4.svg",
+    "static/media/second_cube.svg": "/profile-sukoyaka/static/media/second_cube.04fc690190fa467707e00df21427172c.svg",
+    "static/media/second_book.svg": "/profile-sukoyaka/static/media/second_book.b7e3d4023050f720ec8d838ad217624f.svg",
+    "static/media/sad.svg": "/profile-sukoyaka/static/media/sad.af7a5f1e8fbd171b8a55aee7db825f5b.svg",
+    "static/media/help.svg": "/profile-sukoyaka/static/media/help.e5bcde0573c53355cc2bba72cb2e738a.svg",
+    "static/media/happy.svg": "/profile-sukoyaka/static/media/happy.6a2e92dd8c656929d094b887bbbea1fb.svg",
+    "index.html": "/profile-sukoyaka/index.html",
+    "static/media/location .svg": "/profile-sukoyaka/static/media/location .14a44a141a1cdf32b629cf93523c11e8.svg",
+    "static/media/back.svg": "/profile-sukoyaka/static/media/back.90bdbcf6f8dce2c83ccc5a817fda7e93.svg",
+    "main.5e9ee40b.css.map": "/profile-sukoyaka/static/css/main.5e9ee40b.css.map",
+    "main.1120d9ce.js.map": "/profile-sukoyaka/static/js/main.1120d9ce.js.map",
+    "787.b5419886.chunk.js.map": "/profile-sukoyaka/static/js/787.b5419886.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e9ee40b.css",
+    "static/js/main.1120d9ce.js"
+  ]
+}
