@@ -42,13 +42,13 @@ const QrPinSave = ({login,password , ...props}: propsType) => {
     };
     const saveQrJpg = () => {
         //@ts-ignore
-        // domtoimage.toJpeg(document.getElementById('QRImg'), {quality: 0.95,bgcolor:'red'},{style:{background:'red'}})
-        //     .then(function (dataUrl) {
-        //         const link = document.createElement('a');
-        //         link.download = 'QRImg.jpeg';
-        //         link.href = dataUrl;
-        //         link.click();
-        //     });
+        domtoimage.toJpeg(document.getElementById('QRCode'), {quality: 0.95})
+            .then(function (dataUrl) {
+                const link = document.createElement('a');
+                link.download = 'QRCode.jpeg';
+                link.href = dataUrl;
+                link.click();
+            });
         //@ts-ignore
         domtoimage.toJpeg(document.getElementById('password'), {quality: 0.95, bgcolor: 'red', height: '100'})
             .then(function (dataUrl) {
@@ -73,7 +73,9 @@ const QrPinSave = ({login,password , ...props}: propsType) => {
                 <DialogContentText><span>アバターとは</span></DialogContentText>
                 {/*<img src={QRImg} alt="QRImg" id='QRImg'/>*/}
                 {/*<div style={{display: 'none'}}><QRCode value={login} fgColor='#000' size={80} id='QRCode'/></div>*/}
-                <QRCode value={login} fgColor='#000' size={80} id='QRCode'/>
+               <div id='QRCode'>
+                   <QRCode value={login} fgColor='#000' size={80} />
+               </div>
                 <p id='password' style={{background: '#fff', height: '80px'}}>
                     PIN: {password}
                 </p>
