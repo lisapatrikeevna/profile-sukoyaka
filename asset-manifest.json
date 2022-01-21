@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile-sukoyaka/static/css/main.5e9ee40b.css",
-    "main.js": "/profile-sukoyaka/static/js/main.408adf4a.js",
+    "main.js": "/profile-sukoyaka/static/js/main.c2611ffb.js",
     "static/js/787.b5419886.chunk.js": "/profile-sukoyaka/static/js/787.b5419886.chunk.js",
     "static/media/first.svg": "/profile-sukoyaka/static/media/first.5dcebbe3b36c9a875a40.svg",
     "static/media/second.svg": "/profile-sukoyaka/static/media/second.7339e283aaee37ec36510afe9f19ea8c.svg",
@@ -24,11 +24,11 @@
     "static/media/location .svg": "/profile-sukoyaka/static/media/location .14a44a141a1cdf32b629cf93523c11e8.svg",
     "static/media/back.svg": "/profile-sukoyaka/static/media/back.90bdbcf6f8dce2c83ccc5a817fda7e93.svg",
     "main.5e9ee40b.css.map": "/profile-sukoyaka/static/css/main.5e9ee40b.css.map",
-    "main.408adf4a.js.map": "/profile-sukoyaka/static/js/main.408adf4a.js.map",
+    "main.c2611ffb.js.map": "/profile-sukoyaka/static/js/main.c2611ffb.js.map",
     "787.b5419886.chunk.js.map": "/profile-sukoyaka/static/js/787.b5419886.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5e9ee40b.css",
-    "static/js/main.408adf4a.js"
+    "static/js/main.c2611ffb.js"
   ]
 }
