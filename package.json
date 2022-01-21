@@ -2,7 +2,7 @@
   "name": "profile-sukoyaka",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lisapatrikeevna.github.io/profile-sukoyaka/",
+  "homepage": "https://lisapatrikeevna.github.io/profile-sukoyaka",
   "dependencies": {
     "@ant-design/icons": "^4.6.2",
     "@material-ui/core": "^4.11.0",
