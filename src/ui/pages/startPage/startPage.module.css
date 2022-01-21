@@ -1,0 +1,385 @@
+.screen {
+    padding: 9vw 5vw 10vw 5vw;
+}
+
+/*.screen-box {*/
+.screenBox {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media only screen and (max-width: 950px) {
+    .screenBox {
+        flex-direction: column;
+    }
+}
+.screenSubbox {
+    max-width: 600px;
+}
+.screenSubboxSubtitle {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.screenSubboxTitle {
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 120%;
+    word-break: break-word;
+}
+@media only screen and (max-width: 455px) {
+    .screenSubboxTitle {
+        font-size: 13vw;
+    }
+}
+.screenText {
+    margin-bottom: 12px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+}
+@media only screen and (max-width: 400px) {
+    .screenText {
+        font-size: 8vw;
+    }
+}
+.screenSmallText {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    opacity: 0.6;
+}
+.screenSmallText > span {
+    display: block;
+}
+.gradientedText {
+    background-color: #34A3BB;
+    background-image: linear-gradient(90deg, #34A3BB 0%, #3FE16C 100%);
+    background-size: 100%;
+    background-clip: initial;
+    -webkit-background-clip: text;
+    /*-moz-background-clip: text;*/
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.screenButton {
+    border: none;
+    border-radius: 30px;
+}
+.screenButton:hover {
+    text-shadow: 0 0 black;
+    cursor: pointer;
+}
+.appButtons a:hover {
+    cursor: pointer;
+}
+.google-button {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.appleButton {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.colorButton {
+    background: linear-gradient(90deg, #34A3BB 0%, #3FE16C 100%);
+    color: #FFFFFF;
+}
+.greyButton {
+    background-color: #E2E2E2;
+    color: #333333;
+}
+.whiteButton {
+    background: #FFFFFF;
+    color: #FFFFFF;
+}
+.mediumButton {
+    width: 180px;
+    height: 48px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/* FIRST SRCREEN */
+.first {
+    padding: 5vw 5vw 7vw 5vw;
+    background-image: url('./../../../assets/first.svg');
+    background-size: cover;
+    background-position: center;
+}
+@media only screen and (max-width: 950px) {
+    .first {
+        background-position: unset;
+    }
+}
+.firstBox {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.firstHeader {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 7vw;
+    padding-right: 5vw;
+}
+.firstSmallButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.firstLargeButtons {
+    display: flex;
+    flex-wrap: wrap;
+}
+.firstSubbox {
+    padding-top: 5vw;
+}
+.firstSmallButtons > a {
+    margin-left: 6px;
+    margin-right: 6px;
+    margin-bottom: 6px;
+}
+.firstLargeButtons > a {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 6px;
+}
+.firstSmallButton {
+    width: 120px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+}
+.firstLargeButton {
+    width: 200px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 29px;
+}
+.firstText {
+    margin-bottom: 20px;
+    font-family: 'Poppins';
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 120%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.firstText > span {
+    display: block;
+}
+@media only screen and (max-width: 535px) {
+    .firstText {
+        font-size: 17vw;
+    }
+}
+
+.firstSmallText {
+    margin-bottom: 14px;
+    max-width: 560px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #000000;
+    opacity: 0.6;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* SECOND SCREEN */
+.second {
+    padding: 160px 0 44px 5vw;
+    background-color: #FFFFFF;
+}
+.secondBox {
+    margin-bottom: 15vw;
+}
+.secondSubbox {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.secondSubboxSubtitle {
+    color: #000000;
+    opacity: 0.6;
+}
+.secondSubboxTitle > span {
+    display: block;
+}
+.secondSmallText {
+    margin-bottom: 34px;
+    color: #000000;
+}
+.secondIcons {
+    max-width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.secondIcons img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.secondImage {
+    max-width: 680px;
+}
+.secondFooter {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+}
+@media only screen and (max-width: 365px) {
+    .secondFooter {
+        font-size: 13vw;
+    }
+}
+
+
+/* THIRD SCREEN */
+.third {
+    background-image: url('./../../../assets/third.svg');
+    /*background-image: url('images/third.svg');*/
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+}
+.thirdImage {
+    max-width: 440px;
+}
+.thirdSubbox {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.thirdSubboxTitle {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+
+/* FOURTH SCREEN */
+.fourth {
+    background: linear-gradient(3.62deg, #7B6CD7 3.17%, #B164ED 97.23%);
+    color: #FFFFFF;
+}
+.fourthSubbox {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.fourthSubboxSubtitle {
+    opacity: 0.6;
+}
+
+
+/* FIFTH SCREEN */
+.fifth {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.fifthImage {
+    max-width: 440px;
+}
+.fifthSubbox {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.fifthSubboxTitle {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+
+/* SIXTH SCREEN */
+.sixth {
+    padding-top: 5vw;
+    background: linear-gradient(180deg, #82D3F6 0%, #82E8F6 99.5%);
+    color: #000000;
+}
+.sixthSubbox {
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.sixthSubboxTitle {
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+.sixthSubboxSubtitle {
+    opacity: 0.6;
+}
+.sixthButton {
+    color: #000000;
+}
+
+
+/* SEVENTH SCREEN */
+.seventh {
+    padding-top: 5vw;
+    background: #FFFFFF;
+}
+.seventhHeader {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 57.6px;
+    text-align: center;
+    margin-bottom: 5vw;
+}
+.seventh-map {
+    height: 50vw;
+}
+.seventhFooter {
+    background: #FAFAFA;
+    display: flex;
+    justify-content: center;
+}
+.seventhFooterBox {
+    min-height: 160px;
+    width: 100%;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.seventhLogo {
+    margin-bottom: 40px;
+}
+.seventhFooterText {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 23px;
+    color: #333333;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+    width: 100%;
+}
+.seventhFooterText > a {
+    text-decoration: none;
+    color: #333333;
+}
+.seventhFooterText > a:hover {
+    text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+    .seventhFooterBox {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .seventhLogo {
+        align-self: center;
+        margin-bottom: 0px;
+    }
+    .seventhFooterText {
+        flex-direction: column;
+        align-items: center;
+    }
+}

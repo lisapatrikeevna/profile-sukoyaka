@@ -1,0 +1,101 @@
+.root{
+background-color: #FFFFFF;
+height: 100%;
+/*padding-bottom: theme.spacing(3)*/
+}
+.main{
+    background: #FFFFFF;
+    box-shadow: 8px -10px 25px 2px rgba(8, 53, 37, 0.03);
+    border-radius: 24px 24px 0px 0px;
+    height: 68vh;
+}
+.backButton{
+    position: absolute;
+}
+.registerButton {
+    height: 56px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #613BFF 0%, #3B76FF 100%);
+    /*fontFamily: Mplus 1p;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.loginButton {
+    height: 56px;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #613BFF 0%, #3B76FF 100%);
+    /*fontFamily: Mplus 1p;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+.newUsertitleStyle{
+    height: 24px;
+    /*fontFamily: 'Mplus 1p;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    color: #613BFF;
+}
+.titleStyle {
+    height: 24px;
+    /*fontFamily: Mplus 1p;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    color: #613BFF;
+}
+.labelStyle {
+    width: 279px;
+    /*font-family: 'Mplus 1p',*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 100%;
+    color: #083525;
+    margin-bottom: 12px;
+}
+.inputStyle {
+    height: 56px;
+    background-color: rgba(229, 233, 236, 0.2);
+    borderRadius: 4px;
+    color: #083525;
+    /*fontFamily: 'Mplus 1p',*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 100%;
+    padding: 6px 0 7px 20px;
+}
+.textStyle{
+    height: 56px;
+    background-color: rgba(229, 233, 236, 0.2);
+    border-width: 0;
+    border-radius: 4px;
+    /*fontFamily: M PLUS 1p;*/
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+}
+.image {
+    display: inline-block;
+    max-width: 100%;
+    width: 560px;
+    margin-top: 25%;
+}
+.errorStyle{
+    /*fontFamily: Mplus 1p;*/
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 100%;
+    color: #FF0000;
+}

@@ -1,0 +1,83 @@
+.root{
+    backgroundColor: #FFFFFF;
+    padding: 10px 0px;
+}
+.newUserButton{
+position: relative;
+color: #FFFFFF;
+height: 56px;
+borderRadius: 4px;
+/*'& .MuiButton-endIcon': {*/
+/*                          position: 'absolute',*/
+/*                          right: 10*/
+/*                      }*/
+}
+.buttonText {
+    fontFamily: Mplus 1p;
+    fontStyle: normal;
+    fontWeight: 800;
+    fontSize: 18px;
+    lineHeight: 100%;
+    textAlign: center;
+}
+.labelStyle {
+    width: 279px;
+    margin-top: 8px;
+    margin-bottom: 37px;
+    margin-left: 24px;
+    font-family: 'M PLUS 1p', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
+    color: rgba(51,51,51,0.7);
+    /*opacity: 0.7;*/
+    text-align: center;
+}
+.dialogWrapStyle {
+    width: 300px;
+    height: 455px;
+    left: 38px;
+    top: 144px;
+    align: center;
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 16px;
+    overflow: hidden;
+}
+.dialogTitleStyle {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 100%;
+    color: #083525;
+    text-align: center;
+    margin-top: 5px;
+}
+.dialogContentWrapStyle{
+    background: rgba(195, 255, 193, 0.1);
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    height: 105px;
+    margin-top: 21px;
+}
+.dialogContentWrapStyle1 {
+    background: #B4FBFF
+}
+.dialogContentWrapStyle2 {
+    background: #FFDAF7
+}
+.dialogContentTextStyle {
+    font-style: normal;
+    font-weight: normal;
+    height: 105px;
+    font-size: 12px;
+    line-height: 18px;
+    color: #083525;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

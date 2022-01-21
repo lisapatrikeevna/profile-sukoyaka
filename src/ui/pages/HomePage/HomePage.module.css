@@ -1,0 +1,26 @@
+.root{
+    backgroundColor: #FFF;
+    minHeight: 100%;
+    padding: 24px;
+    marginBottom: 50px;
+}
+header {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    /*paddingLeft: theme.spacing(4),*/
+    /*backgroundColor: theme.palette.background.default,*/
+}
+sideImg{
+    height: 120px;
+    display: block;
+    max-width: 400px;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 4px;
+}
+box {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
